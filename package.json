@@ -28,6 +28,7 @@
   },
   "files": [
     "index.js",
+    "LICENSE",
     "README.md"
   ]
 }
