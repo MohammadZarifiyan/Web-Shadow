@@ -21,7 +21,7 @@ const argv = yargs(hideBin(process.argv))
     .option('host', {
         type: 'string',
         default: '0.0.0.0',
-        describe: 'Bind host',
+        describe: 'Server host',
     })
     .strict()
     .parse();
