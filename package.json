@@ -1,17 +1,17 @@
 {
   "name": "web-shadow",
   "description": "CLI Web Proxy built on Puppeteer (stealth) for proxying web traffic",
-  "version": "1.0.1",
-  "keywords": ["proxy", "stealth"],
+  "version": "1.0.2",
+  "keywords": [
+    "proxy",
+    "stealth"
+  ],
   "author": "Mohammad Zarifiyan",
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "type": "module",
   "bin": {
     "web-shadow": "index.js"
-  },
-  "scripts": {
-    "postinstall": "npx puppeteer browsers install chrome"
   },
   "dependencies": {
     "express": "^5",
