@@ -11,7 +11,7 @@ const argv = yargs(hideBin(process.argv))
     .option('url', {
         type: 'string',
         demandOption: true,
-        describe: 'Base target url',
+        describe: 'Target website url',
     })
     .option('port', {
         type: 'number',
