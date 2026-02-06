@@ -1,7 +1,7 @@
 {
   "name": "web-shadow",
   "description": "CLI Web Proxy built on Puppeteer (stealth) for proxying web traffic",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "proxy",
     "stealth"
